@@ -33,6 +33,10 @@ The accompanying Jupyter Notebook (`AQI.ipynb`) details the data preprocessing, 
 *   **Color-Coded Results:** Displays the prediction with a color corresponding to the AQI bucket's severity.
 *   **Custom Styling:** Features a custom dark theme for improved aesthetics.
 
+## Application Screenshot
+
+![AQI Prediction App Screenshot](assets/app.png)
+
 ## Model Details
 
 ### Model Used in the App
