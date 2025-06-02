@@ -73,12 +73,12 @@ The `AQI.ipynb` notebook demonstrates the model training process using a Random 
 *   **Model:** `RandomForestClassifier` with hyperparameter tuning using `RandomizedSearchCV`.
     *   Best Hyperparameters:
         *   `n_estimators`: (Value from notebook, e.g., 170)
-        *   `max_depth`: (Value from notebook, e.g., 27)
-        *   `min_samples_split`: (Value from notebook, e.g., 4)
-        *   `min_samples_leaf`: (Value from notebook, e.g., 1)
+        *   `max_depth`: 26
+        *   `min_samples_split`: 5
+        *   `min_samples_leaf`: 1
         *   `class_weight`: 'balanced'
-*   **Best Cross-Validation Accuracy (during tuning):** (Value from `random_search.best_score_`, e.g., 0.9678)
-*   **Test Set Accuracy:** (Value from `test_acc`, e.g., 0.9751)
+*   **Best Cross-Validation Accuracy (during tuning):** 0.8166
+*   **Test Set Accuracy:** 0.8207
 
 *   **Classification Report (Random Forest Classifier on Test Set):**
     ```
